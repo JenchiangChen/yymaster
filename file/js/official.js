@@ -12,7 +12,7 @@ $(function () {
 
             numT=1;
         }
-        $('.advert .scroll ul').stop().animate({'margin-top':-25*num+'px'},500)
+        $('.advert .scroll ul').stop().animate({'margin-top':-25*numT+'px'},500)
     },1500)
 
     $(".official").css("width",winWidth)

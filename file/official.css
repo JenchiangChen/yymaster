@@ -53,21 +53,21 @@
 }
 .advert .scroll{
     width: 100%;
-    height: 20px;
+    height: 25px;
     overflow: hidden;
-    margin-top: 17px;
+    margin-top: 15px;
 }
 .advert ul{
     display: inline-block;
     width: 100%;
-    height: 60px;
+    height: 75px;
     overflow: hidden;
     text-align: center;
 }
 .advert ul li {
     width: 100%;
-    height: 20px;
-    line-height: 20px;
+    height: 25px;
+    line-height: 25px;
 }
 .advert ul li a{
     font-size: 12px;

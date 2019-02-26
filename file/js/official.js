@@ -12,7 +12,7 @@ $(function () {
 
             numT=1;
         }
-        $('.advert .scroll ul').stop().animate({'margin-top':-20*num+'px'},500)
+        $('.advert .scroll ul').stop().animate({'margin-top':-25*num+'px'},500)
     },1500)
 
     $(".official").css("width",winWidth)
@@ -184,7 +184,7 @@ $(function () {
         var offsetLeft = event.offsetX;
         $('.scroll_cursor').mousemove(function (evt) {
             evt = evt || window.event;
-            var _left = evt.pageX - offsetLeft - 170;
+            var _left = evt.pageX - offsetLeft - $('.jingdu_box').offset().left;
             if(_left<=840&&_left>=0){
                 $('.scroll_cursor').css('margin-left',_left+'px')
                 $('.jingdu_box ul').css('margin-left',-_left*5.15+'px')

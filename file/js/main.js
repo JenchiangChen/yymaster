@@ -1,5 +1,7 @@
 $(function () {
     var screen = window.screen.width+"px";
+    console.log($(window).width()); //浏览器时下窗口可视区域宽度
+    console.log($(document).width());//浏览器时下窗口文档对于象宽度
     $(".top-bar").css("width",screen)
     $(".top-wrap").css("width",screen)
     $(".content3").css("width",screen)
@@ -43,6 +45,7 @@ $(function () {
         var num1 = $(window).height()/2-95
         var num2 = $(window).scrollTop()
         $(".shadow").css({"top":(num1+num2)+'px'})
+        $(".shadow").css({"right":0+'px'})
     })
 
 })

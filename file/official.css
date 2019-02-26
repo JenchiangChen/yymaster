@@ -34,16 +34,16 @@
 }
 .top-bar .news{
     float: left;
-    width: 32.8%;
+    width: 420px;
     height: 100%;
-    background: url("img/yymaster/5bc003077f9d2a2e79cb57f7VHIT4K8Q (1).jpeg");
+    background: url("img/yymaster/5bc003077f9d2a2e79cb57f7VHIT4K8Q (1).jpeg")no-repeat;
 }
 .top-bar .log{
     float: left;
-    width: 10.4%;
+    width: 133px;
     height: 44px;
     margin: 5px 0 0 10px;
-    background: url("img/yymaster/logo_b5525b7.png");
+    background: url("img/yymaster/logo_b5525b7.png")no-repeat;
 }
 .top-bar .advert{
     float: right;
@@ -139,7 +139,7 @@
 .content3{
     width: 100%;
     height: 300px;
-    margin-top: 500px;
+    padding-top: 500px;
     padding-left: 15%;
 }
 .content3 .top{
@@ -204,12 +204,12 @@
 .official .of_nav ul li:nth-of-type(1){
     position: relative;
     z-index: 9999;
-    background: url("img/yymaster/nav_bg1_d44f09d.jpg");
+    background: url("img/yymaster/nav_bg1_d44f09d.jpg")no-repeat;
 }
 .official .of_nav ul li:hover{
     position: relative;
     z-index: 9999;
-    background: url("img/yymaster/nav_bg1_d44f09d.jpg");
+    background: url("img/yymaster/nav_bg1_d44f09d.jpg")no-repeat;
 }
 .official .of_nav ul li .of_title{
     width: 100%;

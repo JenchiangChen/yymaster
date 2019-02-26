@@ -1,5 +1,6 @@
 $(function () {
     var winWidth = window.screen.width+"px"
+    var screen = window.screen.width+"px"
 
     $(".top-bar").css("width",screen)
     $(".top-wrap").css("width",screen)

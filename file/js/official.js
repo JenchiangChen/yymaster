@@ -4,7 +4,6 @@ $(function () {
 
     $(".top-bar").css("width",screen)
     $(".top-wrap").css("width",screen)
-    $(".content3").css("width",screen)
     var numT=0;
     setInterval(function(){
         numT++;

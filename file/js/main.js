@@ -4,7 +4,6 @@ $(function () {
     console.log($(document).width());//浏览器时下窗口文档对于象宽度
     $(".top-bar").css("width",screen)
     $(".top-wrap").css("width",screen)
-    $(".content3").css("width",screen)
     var num=0;
     setInterval(function(){
         num++;

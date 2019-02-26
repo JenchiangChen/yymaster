@@ -74,7 +74,7 @@
     color: black;
 }
 .top-wrap{
-    background: url("img/yymaster/bg1_1a1638a.jpg") no-repeat -320px 0px;
+    background: url("img/yymaster/bg1_1a1638a.jpg") no-repeat 50%;
 }
 .top-wrap .logo{
     display: inline-block;
@@ -100,7 +100,7 @@
     margin-left: -240px;
 }
 .bot-wrap{
-    background: url("img/yymaster/bg2_376685a.jpg")no-repeat -320px 0px;
+    background: url("img/yymaster/bg2_376685a.jpg")no-repeat 50%;
 }
 .bot-wrap .content1 {
     width: 100%;
@@ -250,11 +250,12 @@
 .official .of_banner .logo a{
     width: 47px;
     height: 98px;
-    display: inline-block;
+    position: absolute;
+    display: block;
     background: url("img/yymaster/50.png")no-repeat;
     background-size: auto 98px;
-    margin-left: 130px;
-    margin-top: 30px;
+    left: 130px;
+    top: 30px;
 }
 .official .of_banner .head_news{
     width: 100%;
@@ -379,6 +380,7 @@
     width: 6240px;
     height: 177px;
     margin-left: -1040px;
+    overflow: hidden;
     top: 20px;
 }
 .news_box .zixun_box ul li{

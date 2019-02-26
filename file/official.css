@@ -257,11 +257,9 @@
     bottom: 0px;
 }
 .official .of_banner .head_news .head_inner{
-    position: absolute;
     width: 1180px;
     height: 287px;
-    margin: 0 auto;
-    bottom: 0px; 
+    margin: -43px 0px auto;
 }
 .official .of_banner .head_news .head_inner .download_wrap{
     width: 145px;
